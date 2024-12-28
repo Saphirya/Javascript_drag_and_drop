@@ -3,8 +3,17 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script type="module" src="/index.js"></script>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!-- QUE pour le sandbox : -->
+    <script src="/index.js" type="module"></script>
     <title>Document</title>
   </head>
-  <body></body>
+  <body class="container">
+    <ul class="list list-left">
+      <li id="first" draggable="true" class="list-elem">
+        Je suis un exemple 1
+      </li>
+    </ul>
+    <ul class="list list-right"></ul>
+  </body>
 </html>
